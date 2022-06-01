@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-influencer",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrya/eslint-config-influencer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavrya/eslint-config-influencer/issues"
+  },
+  "homepage": "https://github.com/gavrya/eslint-config-influencer#readme"
+}
