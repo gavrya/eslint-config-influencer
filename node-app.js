@@ -13,7 +13,8 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    project: ['./tsconfig.json'],
+    ecmaVersion: 2020,
+    project: './tsconfig.json',
   },
   settings: {
     'import/resolver': {

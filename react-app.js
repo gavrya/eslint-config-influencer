@@ -1,3 +1,5 @@
+// const rules = require('./rules');
+
 module.exports = {
   extends: [
     './presets/airbnb-react',
@@ -18,7 +20,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module',
     project: './tsconfig.json',
   },
