@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     './presets/airbnb',
-    './presets/typescript',
+    // './presets/typescript',
     './presets/promise',
     './presets/jest',
     './presets/prettier',
@@ -13,7 +13,8 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2018,
+    sourceType: 'module',
     project: './tsconfig.json',
   },
   settings: {
