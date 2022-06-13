@@ -1,11 +1,4 @@
 const rules = {
-  semi: 0,
-  'react/jsx-filename-extension': [
-    1,
-    {
-      extensions: ['.js', '.tsx'],
-    },
-  ],
   'react/no-unused-prop-types': 0,
   'react/destructuring-assignment': 0,
   'import/no-extraneous-dependencies': 0,
@@ -29,9 +22,6 @@ const rules = {
   'react/jsx-props-no-spreading': 'off', // discuss with the team
   'consistent-return': 'off',
   'react/react-in-jsx-scope': 'off', // enable in config later!!!
-  // warn in develop, error in production
-  'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
-  'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
   'react/button-has-type': 'off', // discuss with the team
   'react/no-array-index-key': 'off', // discuss with the team
   'no-plusplus': 'off', // discuss with the team

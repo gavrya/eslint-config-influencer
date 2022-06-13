@@ -1,1 +1,1 @@
-module.exports = require('./react-app');
+module.exports = require('./node-app');

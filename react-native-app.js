@@ -1,12 +1,13 @@
 module.exports = {
   extends: [
+    './presets/import',
     './presets/react-native',
     './presets/airbnb-react',
-    // './presets/typescript',
     './presets/promise',
     './presets/jest',
-    // './presets/testing-library',
+    './presets/testing-library',
     './presets/prettier',
+    './presets/influencer',
   ].map(require.resolve),
   env: {
     browser: true,
@@ -31,26 +32,6 @@ module.exports = {
       typescript: {},
     },
     'import/ignore': ['react-native'],
-  },
-  rules: {
-    // 'no-duplicate-imports': 'error',
-    // 'import/no-unresolved': 'error',
-    // 'import/export': 'off',
-    // '@typescript-eslint/explicit-function-return-type': 'off',
-    // '@typescript-eslint/no-var-requires': 'off',
-    // '@typescript-eslint/ban-ts-ignore': 'off',
-    // '@typescript-eslint/ban-ts-comment': 'off',
-    // '@typescript-eslint/camelcase': 'off',
-    // 'linebreak-style': ['error', 'unix'], // https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/
-    // semi: ['error', 'always'],
-    // 'prettier/prettier': 'error',
-    // 'react/display-name': 'off',
-    // 'react/no-unescaped-entities': 'off',
-    // 'react/jsx-uses-react': 'off',
-    // 'react/react-in-jsx-scope': 'off',
-    // 'no-shadow': 'off',
-    // '@typescript-eslint/no-shadow': ['error'],
-    // '@typescript-eslint/no-empty-interface': 'off',
   },
   globals: {
     __DEV__: true,

@@ -1,13 +1,12 @@
-// const rules = require('./rules');
-
 module.exports = {
   extends: [
+    './presets/import',
     './presets/airbnb-react',
-    // './presets/typescript',
     './presets/promise',
     './presets/jest',
-    // './presets/testing-library',
+    './presets/testing-library',
     './presets/prettier',
+    './presets/influencer',
   ].map(require.resolve),
   env: {
     browser: true,

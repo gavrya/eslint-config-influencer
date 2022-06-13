@@ -1,10 +1,11 @@
 module.exports = {
   extends: [
+    './presets/import',
     './presets/airbnb',
-    // './presets/typescript',
     './presets/promise',
     './presets/jest',
     './presets/prettier',
+    './presets/influencer',
   ].map(require.resolve),
   env: {
     commonjs: true,
