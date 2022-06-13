@@ -7,22 +7,4 @@ module.exports = {
     './presets/influencer',
     './presets/prettier',
   ].map(require.resolve),
-  env: {
-    commonjs: true,
-    es6: true,
-    jest: true,
-    node: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: 'module',
-    project: './tsconfig.json',
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.ts'],
-      },
-    },
-  },
 };

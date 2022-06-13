@@ -1,20 +1,28 @@
 module.exports = {
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-    sourceType: 'module',
-    requireConfigFile: false,
-  },
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   extends: ['airbnb-base'],
+  env: {
+    commonjs: true,
+    es6: true,
+    jest: true,
+    node: true,
+  },
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
-      parser: '@typescript-eslint/parser',
-      plugins: ['@typescript-eslint'],
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'airbnb-typescript/base',
       ],
+      parserOptions: {
+        ecmaVersion: 2018,
+        sourceType: 'module',
+        project: './tsconfig.json',
+        // typescript-eslint specific options
+        warnOnUnsupportedTypeScriptVersion: true,
+      },
     },
   ],
 };

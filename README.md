@@ -12,7 +12,6 @@ Install peer dependencies of the `eslint-config-influencer` package:
 
 ```sh
 yarn add -D eslint@^8.16.0\
-@babel/eslint-parser@^7.18.2\
 prettier@^2.6.2\
 @typescript-eslint/eslint-plugin@^5.27.0\
 @typescript-eslint/parser@^5.27.0\
@@ -45,7 +44,6 @@ Install peer dependencies of the `eslint-config-influencer` package:
 
 ```sh
 yarn add -D eslint@^8.16.0\
-@babel/eslint-parser@^7.18.2\
 prettier@^2.6.2\
 @typescript-eslint/eslint-plugin@^5.27.0\
 @typescript-eslint/parser@^5.27.0\
@@ -83,7 +81,6 @@ Install peer dependencies of the `eslint-config-influencer` package:
 
 ```sh
 yarn add -D eslint@^8.16.0\
-@babel/eslint-parser@^7.18.2\
 prettier@^2.6.2\
 @typescript-eslint/eslint-plugin@^5.27.0\
 @typescript-eslint/parser@^5.27.0\
