@@ -2,6 +2,7 @@ module.exports = {
   rules: {
     // plugin: react
     'react/jsx-props-no-spreading': 'warn', // discuss with the team
+    'react/require-default-props': 'off',
     // enforce to use arrow function for react fc components
     'react/function-component-definition': [
       'error',
@@ -17,13 +18,13 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/media-has-caption': 'off',
   },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        // plugin: react
-        'react/require-default-props': 'off',
-      },
-    },
-  ],
+  // overrides: [
+  //   {
+  //     files: ['*.ts', '*.tsx'],
+  //     rules: {
+  //       // plugin: react
+  //       'react/require-default-props': 'off',
+  //     },
+  //   },
+  // ],
 };
