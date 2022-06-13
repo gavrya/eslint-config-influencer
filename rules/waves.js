@@ -39,5 +39,7 @@ module.exports = {
     'no-prototype-builtins': 'off',
     'no-restricted-globals': 'off',
     'consistent-return': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    '@typescript-eslint/no-floating-promises': 'off',
   },
 };
