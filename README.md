@@ -12,6 +12,7 @@ Install peer dependencies of the `eslint-config-influencer` package:
 
 ```sh
 yarn add -D eslint@^8.16.0\
+@babel/eslint-parser@^7.18.2\
 prettier@^2.6.2\
 @typescript-eslint/eslint-plugin@^5.27.0\
 @typescript-eslint/parser@^5.27.0\
@@ -29,7 +30,7 @@ Create `.eslintrc.js` file in the root of your project:
 ```javascript
 module.exports = {
   extends: ['influencer/node-app'],
-}
+};
 ```
 
 ## React app ESLint config
@@ -44,6 +45,7 @@ Install peer dependencies of the `eslint-config-influencer` package:
 
 ```sh
 yarn add -D eslint@^8.16.0\
+@babel/eslint-parser@^7.18.2\
 prettier@^2.6.2\
 @typescript-eslint/eslint-plugin@^5.27.0\
 @typescript-eslint/parser@^5.27.0\
@@ -66,7 +68,7 @@ Create `.eslintrc.js` file in the root of your project:
 ```javascript
 module.exports = {
   extends: ['influencer/react-app'],
-}
+};
 ```
 
 ## React Native app ESLint config
@@ -81,6 +83,7 @@ Install peer dependencies of the `eslint-config-influencer` package:
 
 ```sh
 yarn add -D eslint@^8.16.0\
+@babel/eslint-parser@^7.18.2\
 prettier@^2.6.2\
 @typescript-eslint/eslint-plugin@^5.27.0\
 @typescript-eslint/parser@^5.27.0\
@@ -104,7 +107,7 @@ Create `.eslintrc.js` file in the root of your project:
 ```javascript
 module.exports = {
   extends: ['influencer/react-native-app'],
-}
+};
 ```
 
 ## How to check which rules and plugins will be applied to the specific file:

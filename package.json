@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/gavrya/eslint-config-influencer#readme",
   "peerDependencies": {
-    "eslint": "^8.16.0",
-    "prettier": "^2.6.2",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "@babel/eslint-parser": "^7.18.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -33,7 +33,8 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-react-native": "^4.0.0",
-    "eslint-plugin-testing-library": "^5.5.1"
+    "eslint-plugin-testing-library": "^5.5.1",
+    "prettier": "^2.6.2"
   },
   "peerDependenciesMeta": {
     "eslint-config-airbnb": {
@@ -56,12 +57,10 @@
     }
   },
   "devDependencies": {
-    "eslint": "^8.16.0",
-    "jest": "^28.1.1",
-    "prettier": "^2.6.2",
-    "typescript": "^4.7.2",
+    "@babel/eslint-parser": "^7.18.2",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -74,6 +73,9 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-react-native": "^4.0.0",
-    "eslint-plugin-testing-library": "^5.5.1"
+    "eslint-plugin-testing-library": "^5.5.1",
+    "jest": "^28.1.1",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.2"
   }
 }
