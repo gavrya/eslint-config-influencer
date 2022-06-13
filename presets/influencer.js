@@ -10,8 +10,12 @@ module.exports = {
     // https://influenceruk.atlassian.net/wiki/spaces/IN/pages/2047541251/No+errors+warnings+logs+info+in+console+-+JS+-+RFC
     'no-console': isProd ? 'error' : 'warn',
     'no-debugger': isProd ? 'error' : 'warn',
+    'no-plusplus': 'warn', // discuss with the team
+    'prefer-promise-reject-errors': 'off', // discuss with the team
+
     // plugin: import
     'import/prefer-default-export': 'off',
+
     // plugin: prettier
     'prettier/prettier': [
       'error',
@@ -28,6 +32,7 @@ module.exports = {
         // plugin: @typescript-eslint/eslint-plugin
         // https://influenceruk.atlassian.net/wiki/spaces/IN/pages/2079457281/Event+handler+should+not+return+a+promise+-+JS+-+RFC
         '@typescript-eslint/no-misused-promises': 'error',
+        '@typescript-eslint/no-floating-promises': 'error', // discuss with the team
       },
     },
   ],

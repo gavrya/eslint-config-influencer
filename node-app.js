@@ -4,8 +4,8 @@ module.exports = {
     './presets/airbnb',
     './presets/promise',
     './presets/jest',
-    './presets/prettier',
     './presets/influencer',
+    './presets/prettier',
   ].map(require.resolve),
   env: {
     commonjs: true,

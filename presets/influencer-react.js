@@ -1,0 +1,28 @@
+module.exports = {
+  rules: {
+    // plugin: react
+    'react/jsx-props-no-spreading': 'warn', // discuss with the team
+    // enforce to use arrow function for react fc components
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: ['arrow-function'],
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+
+    // plugin: jsx-a11y
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+  },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        // plugin: react
+        'react/require-default-props': 'off',
+      },
+    },
+  ],
+};

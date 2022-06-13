@@ -4,4 +4,3 @@ module.exports = {
 };
 
 // included in airbnb
-// remove ?
