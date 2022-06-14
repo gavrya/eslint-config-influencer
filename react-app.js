@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    './presets/import',
     './presets/airbnb-react',
+    './presets/import',
     './presets/promise',
     './presets/jest',
     './presets/testing-library',

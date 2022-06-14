@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    './presets/import',
     './presets/airbnb',
+    './presets/import',
     './presets/promise',
     './presets/jest',
     './presets/influencer',
