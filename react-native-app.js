@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     './presets/import',
-    './presets/react-native',
     './presets/airbnb-react',
+    './presets/react-native',
     './presets/promise',
     './presets/jest',
     './presets/testing-library',
