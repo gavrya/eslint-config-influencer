@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     // plugin: react
-    'react/jsx-props-no-spreading': 'warn', // discuss with the team
+    'react/jsx-props-no-spreading': 'warn', // discuss with the team, set to 'error'
     // enforce to use arrow function for react fc components
     'react/function-component-definition': [
       'error',

@@ -15,6 +15,20 @@ module.exports = {
 
     // plugin: import
     'import/prefer-default-export': 'off',
+    'import/no-default-export': 'warn', // discuss with the team and set to 'error'
+    'import/no-import-module-exports': 'off',
+    'import/no-unresolved': 'off', // cra alias dir conflict
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        mjs: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
 
     // plugin: prettier
     'prettier/prettier': [
