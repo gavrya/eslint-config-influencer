@@ -20,11 +20,8 @@ module.exports = {
         ecmaVersion: 2018,
         sourceType: 'module',
         project: './tsconfig.json',
-        // typescript-eslint specific options
         warnOnUnsupportedTypeScriptVersion: true,
       },
     },
   ],
 };
-
-// airbnb-base: import

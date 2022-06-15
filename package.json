@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-influencer",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Influencer shareable ESLint config",
   "main": "node-app.js",
   "scripts": {
-    "lint": "eslint . --ext .js,.ts,.tsx",
-    "release": "yarn version --minor && git tag $npm_package_version && git push origin $npm_package_version"
+    "lint": "eslint --debug . --ext .js,.ts,.tsx",
+    "release": "yarn version --patch && git tag $npm_package_version && git push origin $npm_package_version"
   },
   "repository": {
     "type": "git",

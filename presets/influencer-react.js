@@ -12,18 +12,18 @@ module.exports = {
     ],
 
     // plugin: jsx-a11y
+    'jsx-a11y/media-has-caption': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/no-static-element-interactions': 'off',
-    'jsx-a11y/label-has-associated-control': 'off',
-    'jsx-a11y/media-has-caption': 'off',
   },
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
       rules: {
         // plugin: react
-        'react/require-default-props': 'off',
         'react/prop-types': 'off',
+        'react/require-default-props': 'off',
         'react/default-props-match-prop-types': 'off',
       },
     },
